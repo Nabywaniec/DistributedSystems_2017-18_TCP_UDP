@@ -8,7 +8,6 @@ import java.net.*;
 
 public class TcpListener extends Thread {
 
-
     @Override
     public void run() {
         try (ServerSocket serverSocket = new ServerSocket(Server.PORT)) {
