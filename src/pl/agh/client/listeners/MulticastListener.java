@@ -5,7 +5,6 @@ import pl.edu.agh.client.Client;
 import java.io.*;
 import java.net.*;
 
-
 public class MulticastListener extends Thread {
     private String login;
 
